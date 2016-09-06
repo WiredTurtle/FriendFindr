@@ -3,16 +3,16 @@ A system to passively track the location of individual users by collecting mac-a
 ## Goal
 Passively track people with publicly accessible data.
 
-## Dependencies
+# Dependencies
 
-#Server
+##Server
 Ubuntu 14.04
 
 MySQL
 
 NodeJS
 
-#Raspberry Pi Node
+##Raspberry Pi Node
 
 
 
