@@ -3,14 +3,14 @@ A system to passively track the location of individual users by collecting mac-a
 ## Goal
 Passively track people with publicly accessible data.
 
-# Dependencies
+## Dependencies
 
-##Ubuntu Server (14.04 or higher)
+###Ubuntu Server (14.04 or higher)
 -MySQL
 
 -NodeJS
 
-##Raspberry Pi Node
+###Raspberry Pi Node
 -python 2.7
 
 -python-scapy
