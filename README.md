@@ -17,6 +17,6 @@ Passively track people with publicly accessible data.
 
 #Getting Started Quickly
 
-`chmod 755 "filename"`
+`chmod 755 setup.sh`
 
 The idea for this project was inspired by the hak5 Wifi Pineapple birdhouse.
