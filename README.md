@@ -7,14 +7,16 @@ Passively track people with publicly accessible data.
 
 ##Ubuntu Server (14.04 or higher)
 -MySQL
+
 -NodeJS
 
 ##Raspberry Pi Node
 -python 2.7
+
 -python-scapy
 
+#Getting Started Quickly
 
-
-`Test`
+`chmod 755 "filename"`
 
 The idea for this project was inspired by the hak5 Wifi Pineapple birdhouse.
