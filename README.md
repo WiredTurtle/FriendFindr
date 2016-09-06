@@ -5,14 +5,13 @@ Passively track people with publicly accessible data.
 
 # Dependencies
 
-##Server
-Ubuntu 14.04
-
-MySQL
-
-NodeJS
+##Ubuntu Server (14.04 or higher)
+-MySQL
+-NodeJS
 
 ##Raspberry Pi Node
+-python 2.7
+-python-scapy
 
 
 
