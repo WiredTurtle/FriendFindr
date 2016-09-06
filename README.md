@@ -1,5 +1,5 @@
 # FriendFindr
-
+A system to passively track the location of individual users by collecting mac-address probe requests.
 ## Goal
 Passively track people with publicly accessible data.
 
