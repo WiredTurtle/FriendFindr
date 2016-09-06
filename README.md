@@ -1,2 +1,2 @@
 # FriendFindr
-Passive Wireless Reconnaisance (Tracking)
+Passive wireless Tracking.
