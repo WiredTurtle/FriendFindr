@@ -8,7 +8,7 @@ Passively track people with publicly accessible data.
 ###Ubuntu Server (14.04 or higher)
 -MySQL
 
--NodeJS
+-NodeJS (Node_Modules:)
 
 ###Raspberry Pi Node
 -python 2.7
