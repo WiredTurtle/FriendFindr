@@ -19,6 +19,6 @@ Passively track people with publicly accessible data.
 
 `chmod 755 setup.sh`
 
-The idea for this project was inspired by the hak5 Wifi Pineapple birdhouse.
+The idea for this project was inspired by the hak5 Wifi Pineapple birdhouse. Vivek from securitytube.net had a great youtube tutorial on how to capture wifi packets with scapy. Some of the code in the main python file is from Vivek's tutorial.
 
 More updates to the documentation coming soon.
