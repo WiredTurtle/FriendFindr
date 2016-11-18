@@ -6,7 +6,7 @@ Passively track people with publicly accessible data.
 ## Dependencies
 
 ###Ubuntu Server (14.04)
-* MySQL
+* MySQL-Server
 
 * NodeJS (Node_Modules: express, fs, mysql)
 
