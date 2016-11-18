@@ -17,9 +17,11 @@ Passively track people with publicly accessible data.
 
 #Getting Started Quickly
 
+Execute
+
 `chmod 755 setup.sh`
 
-Add '@reboot /filepath' as a crontab.
+`@reboot /filepath`
 
 The idea for this project was inspired by the hak5 Wifi Pineapple birdhouse. Vivek from securitytube.net had a great youtube tutorial on how to capture wifi packets with scapy. Some of the code in the main python file is from Vivek's tutorial.
 
