@@ -1,7 +1,6 @@
 var express = require('express');
 var mysql = require('mysql');
 var fs = require('fs');
-var favicon = require('serve-favicon');
 
 
 var app = express();
