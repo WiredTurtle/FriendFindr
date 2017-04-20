@@ -56,6 +56,7 @@ app.get('/api/upload/:mac/:loc', function (req, res){
         var upload = {time: time, macaddress: mac, location: location}
 
 
+				// INPUT IS NOT SANITIZED. BE WARNED!!!!
         var result = connection.query('INSERT INTO test1 SET ?', upload, function(err,res){
                 if(err) throw err;
 
