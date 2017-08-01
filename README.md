@@ -27,4 +27,6 @@ Then add the following line below as a cronjob. This will execute the script at 
 
 The idea for this project was inspired by the hak5 Wifi Pineapple birdhouse. Vivek from securitytube.net had a great youtube tutorial on how to capture wifi packets with scapy. Some of the code in the main python file is from Vivek's tutorial.
 
+The app that goes with this project has not been open sourced yet.
+
 ## More updates to the documentation coming soon.
