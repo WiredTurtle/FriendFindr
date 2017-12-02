@@ -56,7 +56,7 @@ app.get('/api/upload/:mac/:loc', function (req, res){
         var upload = {time: time, macaddress: mac, location: location}
 
 
-				// INPUT IS NOT SANITIZED. BE WARNED!!!!
+				
         var result = connection.query('INSERT INTO test1 SET ?', upload, function(err,res){
                 if(err) throw err;
 
@@ -69,7 +69,8 @@ app.get('/api/upload/:mac/:loc', function (req, res){
 
 app.get('/api/:mac', function (req, res){
 	var input = req.params.mac;
-
+	
+	// Don't you love those SQL Injections.... INPUT IS NOT SANITIZED. BE WARNED!!!!
 	var result = connection.query('SELECT * FROM test1 WHERE macaddress=' + "'" + input + "'" + 'ORDER BY time DESC LIMIT 1;', function (err, result){  //Got two results check SQL statement
 	if (err) {
 		console.error(err);
